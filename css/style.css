@@ -16,6 +16,7 @@ img.project {
 	cursor: pointer;
 } 
 
+
 /* Classes */
 
 .text-muted {
@@ -62,4 +63,12 @@ img.project {
 
 .footer-link {
 	margin: 10px 10px 0 10px;
+}
+
+/* Classes for Media */
+
+@media screen and (max-width: 500px) {
+    .title-super {
+        font-size: 40px;
+    }
 }
