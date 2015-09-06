@@ -1,0 +1,65 @@
+/* Basic Styles */
+
+body {
+	font-family: "Lato", sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+img.project {
+	cursor: pointer;
+} 
+
+/* Classes */
+
+.text-muted {
+	color: #bcbbbb;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+.title-name {
+	margin-top: 10px;
+}
+
+.project-row {
+	margin-top: 10px;
+}
+
+/* Classes for Modal Sector */
+
+.modal-body-text {
+	font-size: 1.2em;
+	line-height: 1.8em;
+	font-weight: bold;
+	text-align: justify;
+	margin-top: 20px;
+}
+
+/* Classes for Carousel Sector */
+
+.black-text {
+	color: black;
+}
+
+/* Classes for Footer Sector */
+
+.footer-link {
+	margin: 10px 10px 0 10px;
+}

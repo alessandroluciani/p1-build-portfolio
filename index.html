@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Portfolio | Alessandro Luciani</title>
+      <!-- Include Google Font -->
+      <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:100,300'>
+      <!-- Include BootStrap + Personal Style + Font Awesome -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Include jQuery + Bootstrap js -->
+      <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+   </head>
+   <body>
+      <div class="container">
+         <!-- Header Section -->
+         <div class="row">
+            <div class="col-md-2">
+               <img class="img-responsive img-circle title-logo" src="images/alex.jpg" alt="Alex Photo Logo">
+            </div>
+            <div class="col-md-10 text-right text-uppercase title-name">
+               <h1 class="title-super text-thin">Alessandro Luciani</h1>
+               <h4>Front-End Web Developer - Portfolio</h4>
+            </div>
+         </div>
+         <!-- HR Section -->
+         <div class="row">
+            <div class="col-md-12">
+               <hr>
+            </div>
+         </div>
+         <!-- Carousel Section -->
+         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+               <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+               <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+               <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+               <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+               <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+               <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+               <!-- Slide #1 -->
+               <div class="item active">
+                  <img src="images/p1_portfolio_carousel.jpg" alt="P1: Build a Portfolio Site">
+                  <div class="carousel-caption black-text">
+                     <h3>Build a Portfolio Site</h3>
+                     <p>Project 1</p>  
+                  </div>
+               </div>
+               <!-- Slide #2 -->
+               <div class="item">
+                  <img src="images/working_in_progress_carousel.jpg" alt="P2: Online Resume">
+                  <div class="carousel-caption">
+                     <h3>Online Resume</h3>
+                     <p>Project 2</p>
+                  </div>
+               </div>
+               <!-- Slide #3 -->
+               <div class="item">
+                  <img src="images/working_in_progress_carousel.jpg" alt="P3: Classic Arcade Game Clone">
+                  <div class="carousel-caption">
+                     <h3>Classic Arcade Game Clone</h3>
+                     <p>Project 3</p>
+                  </div>
+               </div>
+               <!-- Slide #4 -->
+               <div class="item">
+                  <img src="images/working_in_progress_carousel.jpg" alt="P4: Website Optimization">
+                  <div class="carousel-caption">
+                     <h3>Website Optimization</h3>
+                     <p>Project 4</p>
+                  </div>
+               </div>
+               <!-- Slide #5 -->
+               <div class="item">
+                  <img src="images/working_in_progress_carousel.jpg" alt="P5: Neighborhood Map Project">
+                  <div class="carousel-caption">
+                     <h3>Neighborhood Map Project</h3>
+                     <p>Project 5</p>
+                  </div>
+               </div>
+               <!-- Slide #6 -->
+               <div class="item">
+                  <img src="images/working_in_progress_carousel.jpg" alt="P6: Feed Reader Testing">
+                  <div class="carousel-caption">
+                     <h3>Feed Reader Testing</h3>
+                     <p>Project 6</p>
+                  </div>
+               </div>
+
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+               <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+               <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+            </a>
+         </div>         
+         <!-- Featured Title Section -->
+         <div class="row">
+            <div class="col-md-12">
+               <h2 class="text-muted">Featured Work</h2>
+            </div>
+         </div>
+         <!-- Projects Line #1 Section -->
+         <div class="row text-center project-row">
+            <div class="col-md-4">
+               <img class="img-responsive project" src="images/p1_portfolio.jpg" alt="P1: Build a Portfolio Site" data-toggle="modal" data-target="#project1">
+               <h3 class="text-uppercase">Build a Portfolio</h3>
+               <p>http://link_to_github</p>
+            </div>
+            <div class="col-md-4">
+               <img class="img-responsive project" src="images/working_in_progress.jpg" alt="P2: Online Resume" data-toggle="modal" data-target="#project2">
+               <h3 class="text-uppercase">Online Resume</h3>
+               <p>http://link_to_github2</p>
+            </div>
+            <div class="col-md-4">
+               <img class="img-responsive project" src="images/working_in_progress.jpg" alt="P3: Classic Arcade Game Clone" data-toggle="modal" data-target="#project3">
+               <h3 class="text-uppercase">Classic Arcade Game</h3>
+               <p>http://link_to_github3</p>
+            </div>
+         </div>
+         <!-- Projects Line #2 Section -->
+         <div class="row text-center project-row">
+            <div class="col-md-4">
+               <img class="img-responsive project" src="images/working_in_progress.jpg" alt="P4: Website Optimization" data-toggle="modal" data-target="#project4">
+               <h3 class="text-uppercase">Website Optimization</h3>
+               <p>http://link_to_github4</p>
+            </div>
+            <div class="col-md-4">
+               <img class="img-responsive project" src="images/working_in_progress.jpg" alt="P5: Neighborhood Map Project" data-toggle="modal" data-target="#project5">
+               <h3 class="text-uppercase">Neighborhood Map</h3>
+               <p>http://link_to_github5</p>
+            </div>
+            <div class="col-md-4">
+               <img class="img-responsive project" src="images/working_in_progress.jpg" alt="P6: Feed Reader Testing" data-toggle="modal" data-target="#project6">
+               <h3 class="text-uppercase">Feed Reader Testing</h3>
+               <p>http://link_to_github6</p>
+            </div>
+         </div>
+         <!-- HR Section -->
+         <div class="row">
+            <div class="col-md-12">
+               <hr>
+            </div>
+         </div>
+         <!-- Footer Links -->
+         <div class="row">
+            <div class="col-md-12 text-center">
+               <a href="https://it.linkedin.com/in/alessandroluciani72" target="_blank" class="footer-link"><i class="fa fa-linkedin-square fa-4x"></i></a>
+               <a href="https://github.com/alessandroluciani" target="_blank" class="footer-link"><i class="fa fa-github fa-4x"></i></a>
+               <a href="mailto:info@alessandroluciani.it" class="footer-link"><i class="fa fa-envelope fa-4x"></i></a>
+            </div>
+         </div>
+         <!-- Modal Sector -->
+         <!-- Modal Project #1 -->
+         <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h4 class="modal-title" id="myModalLabel1">Build a Portfolio Site</h4>
+               </div>
+               <div class="modal-body">
+                  <img class="img-responsive" src="images/p1_portfolio.jpg" alt="P1: Build a Portfolio Site">
+                  <p class="modal-body-text">You will be provided with a design mockup as a PDF-file and must replicate that design in HTML and CSS. You will develop a responsive website that will display images, descriptions and links to each of the portfolio projects you will complete throughout the course of the Front-End Web Developer Nanodegree.</p>
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+             </div>
+           </div>
+         </div>
+         <!-- End Modal Project #1 -->
+         <!-- Modal Project #2 -->
+         <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h4 class="modal-title" id="myModalLabel2">Online Resume</h4>
+               </div>
+               <div class="modal-body">
+                  <img class="img-responsive" src="images/working_in_progress.jpg" alt="P2: Online Resume">
+                  <p class="modal-body-text">You'll demonstrate your mastery of the language's syntax through a series of challenges. Each multipart problem mimics a real-life challenge that front-end developers face. You'll be required to write clean code and to apply your knowledge of variables, objects, JSON, functions and control flow to successfully solve the challenges.</p>
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+             </div>
+           </div>
+         </div>
+         <!-- End Modal Project #2 -->
+         <!-- Modal Project #3 -->
+         <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h4 class="modal-title" id="myModalLabel3">Classic Arcade Game Clone</h4>
+               </div>
+               <div class="modal-body">
+                  <img class="img-responsive" src="images/working_in_progress.jpg" alt="P3: Classic Arcade Game Clone">
+                  <p class="modal-body-text">You will be provided with visual assets and a game loop engine; using these tools you must add a number of entities to the game including the player characters and enemies to recreate the classic arcade game Frogger.</p>
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+             </div>
+           </div>
+         </div>
+         <!-- End Modal Project #3 -->
+         <!-- Modal Project #4 -->
+         <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h4 class="modal-title" id="myModalLabel4">Website Optimization</h4>
+               </div>
+               <div class="modal-body">
+                  <img class="img-responsive" src="images/working_in_progress.jpg" alt="P4: Website Optimization">
+                  <p class="modal-body-text">You will optimize a provided website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score and runs at 60 frames per second.</p>
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+             </div>
+           </div>
+         </div>
+         <!-- End Modal Project #4 -->
+         <!-- Modal Project #5 -->
+         <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h4 class="modal-title" id="myModalLabel5">Neighborhood Map Project</h4>
+               </div>
+               <div class="modal-body">
+                  <img class="img-responsive" src="images/working_in_progress.jpg" alt="P5: Neighborhood Map Project">
+                  <p class="modal-body-text">You will develop a single-page application featuring a map of your neighborhood or a neighborhood you would like to visit. You will then add additional functionality to this application, including: map markers to identify popular locations or places you’d like to visit, a search function to easily discover these locations, and a listview to support simple browsing of all locations. You will then research and implement third-party APIs that provide additional information about each of these locations (such as StreetView images, Wikipedia articles, Yelp reviews, etc).</p>
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+             </div>
+           </div>
+         </div>
+         <!-- End Modal Project #5 -->
+         <!-- Modal Project #6 -->
+         <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h4 class="modal-title" id="myModalLabel6">Feed Reader Testing</h4>
+               </div>
+               <div class="modal-body">
+                  <img class="img-responsive" src="images/working_in_progress.jpg" alt="P6: Feed Reader Testing">
+                  <p class="modal-body-text">In this project, you will be learning about testing with Javascript. Testing is an important part of the development process and many organizations practice a standard known as "test-driven development" or TDD. This is when developers write tests first, before they ever start developing their application. Whether you work in an organization that writes tests extensively to inform product development or one that uses tests to encourage iteration, testing has become an essential skill in modern web development!</p>
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+             </div>
+           </div>
+         </div>
+         <!-- End Modal Project #6 -->
+         <!-- End Modal Sector -->
+      </div>
+   </body>
+</html>
